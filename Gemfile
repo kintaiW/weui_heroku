@@ -5,6 +5,7 @@ gem 'chinese_pinyin'
 gem 'json'
 gem 'rdiscount'
 gem 'activerecord'
+gem 'pg'
 
 group :development, :test do
     gem 'sqlite3'
