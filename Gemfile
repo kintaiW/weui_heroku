@@ -5,9 +5,6 @@ gem 'chinese_pinyin'
 gem 'json'
 gem 'rdiscount'
 gem 'activerecord'
-gem 'sequel'
-gem 'sqlite3'
-
 
 group :development, :test do
     gem 'sqlite3'
@@ -18,5 +15,5 @@ group :development do
 end
 
 group :production do
-    gem 'sqlite3'
+    gem 'pg'
 end

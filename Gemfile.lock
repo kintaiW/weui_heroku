@@ -19,11 +19,11 @@ GEM
     json (2.1.0)
     minitest (5.10.2)
     mustermann (1.0.0)
+    pg (0.21.0)
     rack (2.0.3)
     rack-protection (2.0.0)
       rack
     rdiscount (2.2.0.1)
-    sequel (4.47.0)
     sinatra (2.0.0)
       mustermann (~> 1.0)
       rack (~> 2.0)
@@ -42,8 +42,8 @@ DEPENDENCIES
   activerecord
   chinese_pinyin
   json
+  pg
   rdiscount
-  sequel
   sinatra
   sqlite3
 

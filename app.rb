@@ -1,10 +1,10 @@
 require 'sinatra'
 require 'active_record'
-require 'sqlite3'
+require 'pg'
 
 ActiveRecord::Base.establish_connection(    
-    :adapter=>'sqlite3',    
-    :database=>'data.sqlite3',    
+    :adapter=>'postgresql',    
+    :database=>'data.yml',    
     :pool=>5,    
     :timeout=>5000    
     )  
