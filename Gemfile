@@ -11,6 +11,10 @@ group :development, :test do
     gem 'sqlite3'
 end
 
+group :development do
+    gem 'sqlite3'
+end
+
 group :production do
     gem 'sqlite3'
 end
