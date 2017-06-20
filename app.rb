@@ -4,7 +4,7 @@ require 'pg'
 
 ActiveRecord::Base.establish_connection(    
     :adapter=>'postgresql',    
-    :database=>'data.yml',    
+    :database=>'template1',    
     :pool=>5,    
     :timeout=>5000    
     )  
